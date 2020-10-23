@@ -1,0 +1,4 @@
+node_modules/
+resources/
+.vscode
+src/resources/*.csv

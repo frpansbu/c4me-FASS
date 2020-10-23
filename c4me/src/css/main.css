@@ -1,0 +1,678 @@
+
+
+
+body {
+    /* background: linear-gradient(to bottom, #ffffff 80%, #33cccc 100%); */
+    background: linear-gradient(to top, #ffffff 30%, #33cccc 100%);
+    height: 100%;
+    /* font-family: 'Lexend Exa'; */
+    font-family: 'Titillium Web', sans-serif;
+    background-attachment: fixed;
+}
+
+.outlet{
+    display: inline-block;
+    z-index:0;
+    margin-top:100px;
+}
+
+
+/*Navigation Bar Styling*/
+
+    .nav-wrapper{
+        width: 100%;
+        height: 98px;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: fixed;
+        border-bottom-color: black;
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        z-index: 9000;
+        background-color: white;
+    }
+
+    .nav-shadow{
+        width: 100%;
+        height: 98px;
+        position: fixed;
+        z-index: -1;
+    }
+
+    .nav-wrapper .row{
+        margin-bottom: 15px;
+    }
+
+    .nav-main-menu{
+        text-align: left;
+    }
+
+    .nav-header-text{
+        font-size: 24pt;
+        font-weight: bold;
+        color: white;
+        padding: 10px;
+    }
+
+    .nav-home-button{
+        border-radius: 15px;
+        padding-bottom: 5px;
+        height: 100%;
+        text-transform: none;
+        display: inline-block;
+        vertical-align: top;
+        border-color: darkslategray;
+        border-style: solid;
+        border-width: 2px;
+    }
+
+    .nav-logo{
+        display:inline-block;
+    }
+
+    .nav-item{
+        vertical-align: top;
+        text-align: center;
+        font-weight: bold;
+        font-size: 14pt;
+        padding-left: 4%;
+        padding-top:20px;
+        display: inline-block;
+    }
+
+    .nav-item-text{
+        text-decoration:none;
+        color:black;
+    }
+
+    /* Navigation Bar Styling (Account Side) */
+
+        .nav-main-menu-accounts{
+            text-align: right;
+        }        
+        .nav-login-button{
+            border-radius: 5px;
+            height: 100%;
+            text-transform: none;
+            display: inline-block;
+            vertical-align: top;
+            border-color: darkslategray;
+            border-style: solid;
+            border-width: 2px;
+        }
+
+        .nav-register-button{
+            border-radius: 5px;
+            height: 100%;
+            text-transform: none;
+            display: inline-block;
+            vertical-align: top;
+            border-color: darkslategray;
+            border-style: solid;
+            border-width: 2px;
+        }
+
+        .nav-account-item{
+            vertical-align: top;
+            text-align: center;
+            font-weight: bold;
+            font-size: 14pt;
+            padding-left: 3%;
+            padding-top:12px;
+            display: inline-block;
+        }
+
+        .nav-account-text{
+            font-size: 12pt;
+            font-weight: bold;
+            color: darkslategray;
+        }
+/* Home Page Styling */
+
+    .home-container{
+        width: 70%;
+    }
+
+    .home-text{
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        margin-top: 30px;
+        border-radius: 20px;
+        border-color: black;
+        border-style: solid;
+        box-shadow: 15px 15px 20px grey;
+        font-size: 48pt;
+        font-weight:bold;
+    }
+
+    .home-flavor-text{
+        font-size: 24pt;
+    }
+
+/* Login Styling */
+
+    .login-container{
+        width: 70%;
+    }
+
+    .login-form{
+        padding-left: 30%;
+        padding-right: 30%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        margin-top: 30px;
+        border-radius: 20px;
+        border-color: black;
+        border-style: solid;
+        box-shadow: 15px 15px 20px grey;
+    }
+
+    .login-header-text{
+        font-size: 24pt;
+        color: black;
+        font-weight: bold;
+    }
+
+    .login-button{
+        border-color: black;
+        border-style: solid;
+    }
+
+/* Register Styling */
+
+    .register-container{
+        width: 70%;
+    }
+
+    .register-form{
+        padding-left: 30%;
+        padding-right: 30%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        margin-top: 30px;
+        border-radius: 20px;
+        border-color: black;
+        border-style: solid;
+        box-shadow: 15px 15px 20px grey;
+    }
+
+    .register-header-text{
+        font-size: 24pt;
+        color: black;
+        font-weight: bold;
+    }
+
+    .register-button{
+        border-color: black;
+        border-style: solid;
+    }
+
+/* Edit Profile Styling */
+
+    .profile-container{
+        width: 70%;
+    }
+
+    .profile-form{
+        padding-left: 5%;
+        padding-right: 10%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        margin-top: 30px;
+        border-radius: 20px;
+        border-color: black;
+        border-style: solid;
+        text-align: left;
+        box-shadow: 15px 15px 20px grey;
+    }
+
+    .profile-header-text{
+        font-size: 24pt;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom:60px;
+    }
+
+    .profile-button{
+        border-color: gray;
+        border-style: solid;
+        border-width: 2px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .invalid-row{
+        background-color: lightyellow;
+    }
+
+    .profile-label{
+        font-size: 14pt;
+        font-weight: bold;
+        height: 100%;
+        display: inline-block;
+    }
+
+    .profile-input input[type="text"]{
+        padding-left: 10px;
+        width: 100%;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+    }
+
+    .profile-input input[type="password"]{
+        padding-left: 10px;
+        width: 100%;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+    }
+
+    .profile-input input[disabled]{
+        padding-left: 10px;
+        width: 100%;
+        border-style: dotted;
+        border-color: black;
+        border-width: 1px;
+        background-color: lightgray;
+    }
+
+    .profile-input input.invalid{
+        border-color: red;
+        background-color: lavenderblush;
+        border-width: 2px;
+    }
+
+    .profile-input select{
+        padding-left: 10px;
+        margin: 0 0 8px 0;
+        width: 100%;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+    }
+
+    .profile-input select.invalid{
+        border-color: red;
+        background-color: lavenderblush;
+        border-width: 2px;
+    }
+
+    .profile-hs-city{
+
+    }
+
+    .profile-hs-state{
+
+    }
+
+    .profile-short{
+
+    }
+
+    .college-input{
+        margin-left: 5%;
+    }
+
+    .score-label{
+        font-size: 12pt;
+        font-weight: bold;
+        padding-left:25px;
+        height: 100%;
+        display: inline-block;
+    }
+
+    .score-input{
+        text-align: left;
+    }
+    
+    .score-row{
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+
+    .even{
+        background-color: oldlace;
+    }
+
+    .section{
+        border-style: outset;
+        border-width: 3px;
+        border-color:lightgray;
+        padding: 10px;
+        margin-bottom:20px;
+        margin-top: 20px;
+    }
+
+    .disclaimer{
+        font-size: 10pt;
+        font-weight: bold;
+    }
+
+    .admin-button-container {
+        display:block;
+        margin-bottom:40px;
+    }
+    .admin-button-container > button {
+        display:block;
+        margin-top:3px;
+        margin-bottom:20px;
+    }
+    .admin-button-container > h4 {
+        margin-top:40px;
+    }
+    .react-csv-reader-input {
+        padding: 10px;
+    }
+
+    .react-csv-input > label{
+        display:block;
+        font-size:20px;
+    }
+
+    .delete-profiles {
+        margin-top:10px;
+    }
+
+    .questionable-div{
+        display: none;
+    }
+/* College Search Page Styling */
+
+    .college-search-outlet{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 30px;
+    }
+    .filter-container{
+        width: 290px;
+        min-height: 200px;
+        background-color: white;
+        border-style: solid;
+        border-color:black;
+        border-width: 2px;
+        box-shadow: 15px 15px 20px grey;
+        margin-top: 30px;
+        float: left;
+    }
+
+    .filter-header{
+        border-style: solid;
+        border-width: 0px 0px 2px 0px;
+        border-color: black;
+        font-size: 24pt;
+        text-align: left;
+        font-weight: bold;
+        padding-left: 10px;
+        background-color: limegreen;
+    }
+
+    .college-list-container{
+        min-width: 600px;
+        width: 75%;
+        min-height: 1072px;
+        background-color: white;
+        border-style: solid;
+        border-color:black;
+        border-width: 2px;
+        margin-left: 20px;
+        box-shadow: 15px 15px 20px grey;
+        margin-top: 30px;
+        float: left;
+        padding-bottom: 20px;
+    }
+
+    .filter-item{
+        text-align: center;
+    }
+
+    .filter-label{
+        text-align: left;
+        padding-left: 10px;
+        padding-bottom: 8px;
+        font-weight: bold;
+    }
+
+    .filter-name-label{
+        text-align: left;
+        padding-left: 10px;
+        margin-top: 10px;
+        padding-bottom: 8px;
+        font-weight: bold;
+    }
+
+    .filter-row{
+        width:95%;
+        margin-left: -3px;
+        margin-bottom: 0px;
+    }
+
+    .filter-range input[type="text"]{
+        padding-left: 5px;
+        padding-right:13px;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+        height: 2rem;
+    }
+
+    .filter-range-prefix input[type="text"]{
+        padding-left: 18px;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+        height: 2rem;
+    }
+
+    .filter-name input[type="text"]{
+        padding-left: 10px;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+        width: 90%;
+        height: 2rem;
+    }
+
+    .filter-range-separator{
+        padding-top:5px;
+        padding-left: 13px;
+    }
+
+    .filter-score-label{
+        text-align:left;
+        padding-left: 10px;
+        font-weight: bold;
+        font-size: 14pt;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .filter-majors-label{
+        text-align: left;
+        padding-left: 10px;
+        margin-top: 10px;
+        padding-bottom: 8px;
+        font-weight: bold;
+    }
+
+    .filter-majors{
+        margin-left: 20px;
+    }
+
+    .filter-scores{
+        width: 80%;
+        margin-left: 20px;
+    }
+
+    .filter-prefix{
+        position: absolute;
+        pointer-events: none;
+        padding-top: 0px;
+        padding-left: 5px;
+        font-size: 16pt;
+    }
+    .filter-suffix{
+        display: inline-block;
+        position: absolute;
+        pointer-events: none;
+        padding-left: 45px;
+        margin-top: -40px;
+        text-align: right;
+        font-size: 16pt;
+    }
+
+    .filter-item select{
+        display: inline-block;
+        padding-left: 5px;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+        margin-bottom: 10px;
+        height: 2rem;
+    }
+    .filter-item-major select{
+        display: inline-block;
+        padding-left: 5px;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+        margin-bottom: 10px;
+        height: 2rem;
+    }
+
+    .filter-select{
+        width:95%;
+    }
+
+    .filter-radio{
+        font-size: 12pt;
+        color: rgba(0,0,0,0.87);
+        font-weight: bold;
+    }
+
+    .filter-radio input[type="radio"]{
+        background-color: initial;
+        cursor: default;
+        -webkit-appearance: radio;
+        box-sizing: border-box;
+        margin: 3px 3px 0px 5px;
+        padding: initial;
+        border: initial;
+        border-color: black;
+        opacity: 1;
+        position: relative;
+    }
+
+    .filter-radio input[type="radio"]:not(:checked){
+        pointer-events: auto;
+    }
+
+    .option-default{
+        color: lightgray;
+    }
+
+    .filter-majors-spacer{
+        margin-bottom: 10px;
+    }
+
+    .search-item-name{
+        font-weight: bold;
+        color:midnightblue;
+        text-align: center;
+        font-size: 14pt;
+    }
+    
+    .search-item{
+        text-align: center;
+    }
+
+    .search-header{
+        text-align: center;
+    }
+    .search-header-unimportant{
+        text-align: center;
+        width: 100px;
+    }
+
+    table.striped>tbody>tr:nth-child(odd) {
+        background-color: lightskyblue;
+    }
+
+    .search-num-colleges{
+        text-align: left;
+        font-size: 14pt;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+    .search-num-highschools{
+        text-align: left;
+        font-size: 14pt;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    .search-header-text{
+        cursor: pointer;
+        color: rgba(0,0,0,0.87);
+        font-weight: bold;
+        font-size: 18pt;
+    }
+
+/* Specific College Page Styling */
+
+    .college-container{
+        padding-left: 5%;
+        padding-right: 10%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        margin-top: 30px;
+        border-radius: 20px;
+        border-color: black;
+        border-style: solid;
+        text-align: left;
+        box-shadow: 15px 15px 20px grey;
+        background-color: white;
+    }
+
+    .college-header{
+        font-size: 20pt;
+        font-weight: bold;
+    }
+
+    .application-info-text{
+        text-align: left;
+        padding-left: 25px;
+    }
+
+    .college-item-header{
+        font-size: 24pt;
+        margin-bottom: 35px;
+    }
+
+    .college-item-category{
+        font-size: 18pt;
+        margin-left: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .college-item-name{
+        font-size: 14pt;
+        width: 300px;
+    }
+
+    .college-item-table{
+        font-size: 16pt;
+        margin-left: 40px;
+        margin-right: 40px;
+        width: 95%;
+    }

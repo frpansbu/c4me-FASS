@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "debug": "nodemon --inspect ./bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "csv-parser": "^2.3.2",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "firebase": "^7.14.0",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "neat-csv": "^5.2.0",
+    "puppeteer-firefox": "^0.5.1",
+    "nodemon": "^2.0.3",
+    "route-async": "^1.0.7"
+  }
+}
