@@ -12,3 +12,13 @@ kinds of schools and degrees: undergraduate school, graduate school, law school,
 
 Sample Login: 40_ny_11@c4me.com <br>
 Password: 40_NY_11!
+
+Colleges with Sample Info to Check:
+1. Barnard College
+2. Central Connecticut State Uni
+3. Colorado College
+4. Illinois College
+5. Mount Holyoke College
+6. New York Uni
+7. Reed College
+8. Stevenson College
